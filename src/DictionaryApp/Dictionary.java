@@ -1,5 +1,6 @@
 package DictionaryApp;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Dictionary {
@@ -12,7 +13,7 @@ public class Dictionary {
     private EnglishList englishList;
 
     private void getInfoFromUser() {
-        System.out.println("Welcome ın this section you should enter the parameters as how can you want");
+        System.out.println("Welcome, ın this section you should enter the parameters as how can you want");
         System.out.println("**********************");
         System.out.println();
         boolean parametersCompleted = false;
@@ -76,6 +77,7 @@ public class Dictionary {
     public void setWord(String word) {
         this.word = word;
     }
+
 
     public String getArticleInGerman() {
         return articleInGerman;

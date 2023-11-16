@@ -81,4 +81,9 @@ public class Word {
     public void setNext(Word next) {
         this.next = next;
     }
+
+    public void showWordInfo() {
+        System.out.printf("Word is -> %s \nArticle in german -> %s \nMeaning as TR -> %s\nMeaning as GER -> \nUsage in sentence -> %s \n",
+                word, articleInGerman, meaningAsTR, meaningAsGER,usageInSentence);
+    }
 }
